@@ -1,10 +1,12 @@
-import { Plugin, MarkdownView } from "obsidian";
+import { Plugin, MarkdownView, debounce } from "obsidian";
 
 export default class footnoteIndicator extends Plugin {
 	footnoteStatusBar: HTMLElement;
 	citationStatusBar: HTMLElement;
 
 	async onload() {
+		const countDelay = 1000;
+
 		console.log("Footnote & Citation Indicator Plugin loaded.");
 		this.footnoteStatusBar = this.addStatusBarItem();
 		this.footnoteStatusBar.setText("");
@@ -16,7 +18,7 @@ export default class footnoteIndicator extends Plugin {
 		);
 
 		this.registerEvent(
-			this.app.workspace.on("editor-change", this.countFootnotes)
+			this.app.workspace.on("editor-change", debounce(this.countFootnotes, countDelay))
 		);
 
 		this.registerEvent(
@@ -24,7 +26,7 @@ export default class footnoteIndicator extends Plugin {
 		);
 
 		this.registerEvent(
-			this.app.workspace.on("editor-change", this.countPandocCitations)
+			this.app.workspace.on("editor-change", debounce(this.countPandocCitations, countDelay))
 		);
 	}
 
