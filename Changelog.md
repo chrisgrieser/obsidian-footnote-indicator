@@ -1,3 +1,5 @@
+- 2022-01-25	release 0.2.3
+- 2022-01-25	why is @kometenstaub too lazy to make a PR themselves? (fix #1)
 - 2022-01-25	release 0.2.2
 - 2022-01-25	fix #1
 - 2022-01-25	release 0.2.1
