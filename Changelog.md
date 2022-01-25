@@ -1,0 +1,3 @@
+- 2022-01-25	release 0.2
+- 2022-01-25	first working plugin
+- 2022-01-03	Initial commit
