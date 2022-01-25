@@ -18,7 +18,7 @@ export default class footnoteIndicator extends Plugin {
 		);
 
 		this.registerEvent(
-			this.app.workspace.on("editor-change", debounce(this.countFootnotes, countDelay))
+			this.app.workspace.on("editor-change", debounce(this.countFootnotes, countDelay, true))
 		);
 
 		this.registerEvent(
@@ -26,7 +26,7 @@ export default class footnoteIndicator extends Plugin {
 		);
 
 		this.registerEvent(
-			this.app.workspace.on("editor-change", debounce(this.countPandocCitations, countDelay))
+			this.app.workspace.on("editor-change", debounce(this.countPandocCitations, countDelay, true))
 		);
 	}
 
