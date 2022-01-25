@@ -1,10 +1,10 @@
 {
 	"id": "obsidian-footnote-indicator",
-	"name": "Footnote Indicator",
+	"name": "Footnote & Citation Indicator",
 	"version": "0.1",
-	"minAppVersion": "0.13.14",
-	"description": "Indicates the presence of footnotes in the gutter and the Status bar.",
+	"minAppVersion": "0.13.19",
+	"description": "Counts footnotes & Pandoc citations, indicates their presence in the gutter.",
 	"author": "pseudometa",
 	"authorUrl": "https://chris-grieser.de/",
-	"isDesktopOnly": false
+	"isDesktopOnly": true
 }

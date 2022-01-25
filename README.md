@@ -2,14 +2,16 @@
 
 <!-- ![](https://img.shields.io/github/downloads/chrisgrieser/obsidian-footnote-indicator/total?label=Total%20Downloads&style=plastic) ![](https://img.shields.io/github/v/release/chrisgrieser/obsidian-footnote-indicator?label=Latest%20Release&style=plastic) [![](https://img.shields.io/badge/changelog-click%20here-FFE800?style=plastic)](Changelog.md) -->
 
-A plugin for [Obsidian](https://obsidian.md/) that indicates the presence of footnotes in the gutter and the Status bar
+A plugin for [Obsidian](https://obsidian.md/) that counts footnotes & Pandoc citations. It also indicates their presence in the gutter.
+
+![Promo Image](images/Promo.png)
 
 ## Table of Contents
-<!-- MarkdownTOC -->
+<!-- MarkdownTOC levels="2" -->
 
 - [Installation](#installation)
 - [Contribute](#contribute)
-- [Credits & Donations](#credits--donations)
+- [About the Developer](#about-the-developer)
 
 <!-- /MarkdownTOC -->
 
@@ -26,13 +28,17 @@ Please use the `.eslintrc` configuration located in the repository and run eslin
 eslint --fix *.ts
 ```
 
-## Credits & Donations
-Donations are welcome via [PayPal](https://www.paypal.com/paypalme/ChrisGrieser) or [Ko-Fi](https://ko-fi.com/pseudometa). 🙏
+## About the Developer
+In my day job, I am a sociologist studying the social mechanisms underlying the digital economy. For my PhD project, I investigate the governance of the app economy and how software ecosystems manage the tension between innovation and compatibility. If you are interested in this subject, feel free to get in touch!
 
-In my day job, I am a researcher in sociology. In my PhD project, I investigate the governance of the app economy and how software ecosystems manage the tension between innovation and compatibility. If you are interested in this subject, feel free to visit [my academic homepage](https://chris-grieser.de/) and get in touch!
-- [Discord](https://discord.gg/veuWUTm): `@pseudometa#9546`
-- Twitter: [@pseudo_meta](https://twitter.com/pseudo_meta)
+### Profiles
+- Discord: `@pseudometa#9546`
+- [Academic Website](https://chris-grieser.de/)
+- [GitHub](https://github.com/chrisgrieser/)
+- [Twitter](https://twitter.com/pseudo_meta)
+- [ResearchGate](https://www.researchgate.net/profile/Christopher-Grieser)
+- [LinkedIn](https://www.linkedin.com/in/christopher-grieser-ba693b17a/)
 
----
-
-[⬆️ Go Back to Top](#Table-of-Contents)
+### Donate
+- [PayPal](https://www.paypal.com/paypalme/ChrisGrieser)
+- [Ko-Fi](https://ko-fi.com/pseudometa)
