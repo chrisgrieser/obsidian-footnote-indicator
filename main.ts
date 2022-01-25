@@ -36,7 +36,7 @@ export default class footnoteIndicator extends Plugin {
 		const mdView = this.app.workspace.getActiveViewOfType(MarkdownView);
 
 		let newStatusBarText = "";
-		if (mdView && mdView.getViewData()) {
+		if (mdView !== null && mdView.getViewData()) {
 			const content = mdView.getViewData();
 			let footnotes = content.match(/\[\^\S+](?!:)/g);
 			if (!footnotes) footnotes = [];
@@ -50,7 +50,7 @@ export default class footnoteIndicator extends Plugin {
 		const mdView = this.app.workspace.getActiveViewOfType(MarkdownView);
 
 		let newStatusBarText = "";
-		if (mdView && mdView.getViewData()) {
+		if (mdView !== null && mdView.getViewData()) {
 			const content = mdView.getViewData();
 
 			let pandocCitations = content.match(/@[A-Za-z0-9-]+(?=[,;\] ])/gi);
