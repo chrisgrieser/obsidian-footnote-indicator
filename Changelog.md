@@ -1,3 +1,6 @@
+- 2022-01-25	release 0.2.1
+- 2022-01-25	fix #2
+- 2022-01-25	patch
 - 2022-01-25	release 0.2
 - 2022-01-25	first working plugin
 - 2022-01-03	Initial commit
