@@ -1,3 +1,5 @@
+- 2022-01-26	release 0.2.4
+- 2022-01-26	do not display statusbar items for value 0
 - 2022-01-25	release 0.2.3
 - 2022-01-25	why is @kometenstaub too lazy to make a PR themselves? (fix #1)
 - 2022-01-25	release 0.2.2
