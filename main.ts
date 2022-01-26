@@ -38,10 +38,8 @@ export default class footnoteIndicator extends Plugin {
 		let newStatusBarText = "";
 		if (mdView !== null && mdView.getViewData()) {
 			const content = mdView.getViewData();
-			let footnotes = content.match(/\[\^\S+](?!:)/g);
-			if (!footnotes) footnotes = [];
-
-			newStatusBarText = footnotes.length.toString() + " fn";
+			const footnotes = content.match(/\[\^\S+](?!:)/g);
+			if (footnotes) newStatusBarText = footnotes.length.toString() + " fn";
 		}
 		this.footnoteStatusBar.setText(newStatusBarText);
 	};
@@ -54,10 +52,10 @@ export default class footnoteIndicator extends Plugin {
 			const content = mdView.getViewData();
 
 			let pandocCitations = content.match(/@[A-Za-z0-9-]+(?=[,;\] ])/gi);
-			if (pandocCitations) pandocCitations = [...new Set(pandocCitations)]; // only unique citations
-			else pandocCitations = [];
-
-			newStatusBarText = pandocCitations.length.toString() + " ct";
+			if (pandocCitations) {
+				pandocCitations = [...new Set(pandocCitations)]; // only unique citations
+				newStatusBarText = pandocCitations.length.toString() + " ct";
+			}
 		}
 		this.citationStatusBar.setText(newStatusBarText);
 	};
