@@ -38,8 +38,14 @@ export default class footnoteIndicator extends Plugin {
 		let newStatusBarText = "";
 		if (mdView !== null && mdView.getViewData()) {
 			const content = mdView.getViewData();
-			const footnotes = content.match(/\[\^\S+](?!:)/g);
-			if (footnotes) newStatusBarText = footnotes.length.toString() + " fn";
+			const regularFn = content.match(/\[\^\S+](?!:)/g);
+			const inlineFn = content.match(/\^\[[^^].+?]/g);
+
+			let overallFn = 0;
+			if (regularFn) overallFn += regularFn.length;
+			if (inlineFn) overallFn += inlineFn.length;
+
+			if (overallFn) newStatusBarText = overallFn.toString() + " fn";
 		}
 		this.footnoteStatusBar.setText(newStatusBarText);
 	};
