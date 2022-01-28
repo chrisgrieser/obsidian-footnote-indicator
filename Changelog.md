@@ -1,3 +1,6 @@
+- 2022-01-28	release 0.3.0
+- 2022-01-28	support for inline footnotes
+- 2022-01-28	patch
 - 2022-01-26	release 0.2.4
 - 2022-01-26	do not display statusbar items for value 0
 - 2022-01-25	release 0.2.3
