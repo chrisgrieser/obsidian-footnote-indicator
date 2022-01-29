@@ -9,11 +9,15 @@ A plugin for [Obsidian](https://obsidian.md/) that counts footnotes & Pandoc cit
 ## Table of Contents
 <!-- MarkdownTOC levels="2" -->
 
+- [Known Limitations](#known-limitations)
 - [Installation](#installation)
 - [Contribute](#contribute)
 - [About the Developer](#about-the-developer)
 
 <!-- /MarkdownTOC -->
+
+## Known Limitations
+- As Obsidian does nto assign a css class to inline footnotes, they can't be indicated in the gutter. (However, they are counted properly in the status bar.)
 
 ## Installation
 Right now, the plugin is still in beta. It can be installed with the [BRAT Plugin](https://github.com/TfTHacker/obsidian42-brat).
