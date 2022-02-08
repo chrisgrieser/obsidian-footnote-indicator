@@ -21,6 +21,11 @@
     display: none;
 }
 
+/* Color Pandoc citations */
+.cm-hmd-barelink.cm-hmd-barelink {
+    color: var(--text-accent);
+}
+
 /* hide when empty to avoid empty space in some themes */
 .status-bar-item.plugin-obsidian-footnote-indicator:empty {
     display: none;
