@@ -21,7 +21,7 @@
 }
 
 .cm-s-obsidian span.cm-footref.cm-formatting::BEFORE {
-	left: -45px;
+	left: -50px;
 }
 
 div > ul > li > ul > li > .footnote-ref::BEFORE {
