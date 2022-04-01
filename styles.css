@@ -2,31 +2,31 @@
 
 .footnote-link:not(.footnote-backref)::BEFORE,
 .cm-s-obsidian span.cm-footref.cm-formatting::BEFORE {
-    content: "⦿";
+	content: "⦿";
 
-    font-size: 1rem;
-    line-height: 1rem;
+	font-size: 1rem;
+	line-height: 1rem;
 
-    color: var(--text-accent);
-    background-color: var(--background-primary);
+	color: var(--text-accent);
+	background-color: var(--background-primary);
 
-    position: absolute;
-    left: 15px;
+	position: absolute;
+	left: -45px;
 
-    padding: 0 3px;
-    margin-top: 3px;
+	padding: 0 3px;
+	margin-top: 3px;
 }
 
 .cm-hmd-barelink:not(.cm-formatting-link) + .cm-footref.cm-formatting::BEFORE {
-    display: none;
+	display: none;
 }
 
 /* Color Pandoc citations */
 .cm-hmd-barelink.cm-hmd-barelink {
-    color: var(--text-accent);
+	color: var(--text-accent);
 }
 
 /* hide when empty to avoid empty space in some themes */
 .status-bar-item.plugin-obsidian-footnote-indicator:empty {
-    display: none;
+	display: none;
 }
