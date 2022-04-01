@@ -1,6 +1,13 @@
+- 2022-04-01	release 0.3.1
+- 2022-04-01	fixed alignment of gutter indicators
+- 2022-03-14	improved release workflow
+- 2022-03-14	improved release workflow
+- 2022-03-14	improved release workflow
+- 2022-02-25	switch to issue forms
+- 2022-02-25	added PR template
+- 2022-02-08	coloring of pandoc citations
 - 2022-01-28	release 0.3.0
 - 2022-01-28	support for inline footnotes
-- 2022-01-28	patch
 - 2022-01-26	release 0.2.4
 - 2022-01-26	do not display statusbar items for value 0
 - 2022-01-25	release 0.2.3
@@ -9,7 +16,6 @@
 - 2022-01-25	fix #1
 - 2022-01-25	release 0.2.1
 - 2022-01-25	fix #2
-- 2022-01-25	patch
 - 2022-01-25	release 0.2
 - 2022-01-25	first working plugin
 - 2022-01-03	Initial commit
