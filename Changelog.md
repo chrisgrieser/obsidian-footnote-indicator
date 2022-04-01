@@ -1,3 +1,5 @@
+- 2022-04-01	release 0.3.2
+- 2022-04-01	fix for indicators in preview mode lists
 - 2022-04-01	release 0.3.1
 - 2022-04-01	fixed alignment of gutter indicators
 - 2022-03-14	improved release workflow

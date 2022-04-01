@@ -1,6 +1,6 @@
 {
 	"name": "obsidian-footnote-indicator",
-	"version": "0.3.1",
+	"version": "0.3.2",
 	"description": "Counts footnotes & Pandoc citations, indicates their presence in the gutter.",
 	"main": "main.js",
 	"scripts": {
