@@ -1,3 +1,4 @@
+- 2022-04-01	release 0.3.3
 - 2022-04-01	release 0.3.2
 - 2022-04-01	fix for indicators in preview mode lists
 - 2022-04-01	release 0.3.1
