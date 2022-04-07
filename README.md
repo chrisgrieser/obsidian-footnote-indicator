@@ -27,13 +27,12 @@ In my day job, I am a sociologist studying the social mechanisms underlying the 
 
 <!-- markdown-link-check-disable -->
 ### Profiles
-- [Discord](https://discordapp.com/users/462774483044794368/)
 - [Academic Website](https://chris-grieser.de/)
+- [ResearchGate](https://www.researchgate.net/profile/Christopher-Grieser)
+- [Discord](https://discordapp.com/users/462774483044794368/)
 - [GitHub](https://github.com/chrisgrieser/)
 - [Twitter](https://twitter.com/pseudo_meta)
-- [ResearchGate](https://www.researchgate.net/profile/Christopher-Grieser)
 - [LinkedIn](https://www.linkedin.com/in/christopher-grieser-ba693b17a/)
 
 ### Donate
-- [PayPal](https://www.paypal.com/PayPalme/ChrisGrieser)
-- [Ko-Fi](https://ko-fi.com/pseudometa)
+<a href='https://ko-fi.com/Y8Y86SQ91' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
