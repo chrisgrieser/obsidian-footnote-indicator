@@ -1,5 +1,6 @@
 /* Footnote Indicator in Gutter */
 
+.is-live-preview .cm-footref::before,
 .footnote-ref::BEFORE,
 .cm-s-obsidian span.cm-footref.cm-formatting::BEFORE {
 	content: "⦿";
@@ -16,8 +17,17 @@
 	margin-top: 3px;
 }
 
+.is-live-preview .cm-footref::BEFORE {
+	left: -50px;
+}
+
 .footnote-ref::BEFORE {
-	left: 15px;
+	left: 20px;
+}
+
+/* don't display in Plugin Browser */
+.modal-container .footnote-ref::BEFORE {
+	display: none;
 }
 
 .cm-s-obsidian span.cm-footref.cm-formatting::BEFORE {
@@ -43,6 +53,8 @@ div > ul > li > ul > li > ul > li > ul > li > ul > li > .footnote-ref::BEFORE {
 .cm-hmd-barelink:not(.cm-formatting-link) + .cm-footref.cm-formatting::BEFORE {
 	display: none;
 }
+
+/* --------------------------------------------- */
 
 /* Color Pandoc citations */
 .cm-hmd-barelink.cm-hmd-barelink {
