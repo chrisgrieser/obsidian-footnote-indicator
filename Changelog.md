@@ -1,3 +1,5 @@
+- 2022-05-31	release 0.3.5
+- 2022-05-31	fix edge case where @ in md linsk is counted as citation
 - 2022-04-07	release 0.3.4
 - 2022-04-01	release 0.3.3
 - 2022-04-01	release 0.3.2
