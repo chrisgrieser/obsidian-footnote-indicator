@@ -57,7 +57,7 @@ export default class footnoteIndicator extends Plugin {
 		if (mdView !== null && mdView.getViewData()) {
 			const content = mdView.getViewData();
 
-			let pandocCitations = content.match(/@[A-Za-z0-9-]+(?=[,;\] ])/gi);
+			let pandocCitations = content.match(/@[A-Za-z0-9-]+[,;\]](?!\()/gi);
 			if (pandocCitations) {
 				pandocCitations = [...new Set(pandocCitations)]; // only unique citations
 				newStatusBarText = pandocCitations.length.toString() + " ct";
