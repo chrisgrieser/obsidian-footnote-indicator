@@ -1,5 +1,10 @@
 # Footnote & Citation Indicator
 
+> __Note__  
+> This plugin is archived since the status bar counters have been [integrated into the BetterWordCount plugin](https://github.com/lukeleppan/better-word-count/pull/79), which you can now use to have the same features with much more customization options.
+
+---
+
 ![](https://img.shields.io/github/downloads/chrisgrieser/obsidian-footnote-indicator/total?label=Total%20Downloads&style=plastic) ![](https://img.shields.io/github/v/release/chrisgrieser/obsidian-footnote-indicator?label=Latest%20Release&style=plastic) [![](https://img.shields.io/badge/changelog-click%20here-FFE800?style=plastic)](Changelog.md)
 
 A plugin for [Obsidian](https://obsidian.md/) that counts footnotes & Pandoc citations. It also indicates their presence in the gutter.
